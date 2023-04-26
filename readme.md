@@ -1,5 +1,12 @@
 ## simple use case 
 ---
+## How to use 
+```
+## how run to generate topk file  to geenerate dev.top100.bm25.tsv and  train.top100.bm25.tsv (be zip)
+
+run the main_retri_example.ipynb file
+```
+
 ### base on the [[retriv framework]](https://github.com/AmenRa/retriv.git) to use the bm25 method to geenerate a topk file about the trian.queries.tsv and dev.queries.tsv   
  1. speed of the frame work detail data  is very quickly !  
  2. the data from the alibaba data  in the [[repo]](https://github.com/Alibaba-NLP/Multi-CPR.git)  [[Paper]](https://arxiv.org/pdf/2203.03367.pdf). /data/video
@@ -40,14 +47,7 @@ tqdm
  │  │  ├─ train.qrels.tsv
  │  │  ├─ train.queries.tsv
  │  │  ├─ train.query.txt
- │  │  └─ train.top100.bm25.tsv
-
-```
-## how run to generate topk file  to geenerate dev.top100.bm25.tsv and  train.top100.bm25.tsv (be zip)
-
-```
-run the retri.ipynb
-
+ │  │  └─ train.top100.bm25.tsv(zip)
 
 ```
 ## If you think it is helpful to you, please give me a star
